@@ -13,6 +13,7 @@ mybatis:
   - classpath:mybatis/mapper/*.xml
 
 spring:
+  profiles: dev
   application:
     name: cloud-config-dept-client
   datasource:
@@ -43,6 +44,7 @@ mybatis:
   - classpath:mybatis/mapper/*.xml
 
 spring:
+  profiles: test
   application:
     name: cloud-config-dept-client
   datasource:
